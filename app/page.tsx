@@ -1,16 +1,13 @@
-import React from 'react';
+import Image from "next/image";
 
-const HomePage: React.FC = () => {
+export default function Home() {
   return (
-    <div>
-      <section>
-        {/* Your picture and description */}
-        <h1>About Me</h1>
-        <p>Description here.</p>
-      </section>
-      {/* Other sections as needed */}
-    </div>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+        <h1>
+          hello
+          </h1>
+      </div>
+    </main>
   );
-};
-
-export default HomePage;
+}
